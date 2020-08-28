@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Feeling bored and want to draw something on a simulated etch-a-sketch? You're more than welcome to draw here, and customize it to however big, or what colors you want!">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="etch, sketch, online, etch-a-sketch, drawing">
+    <title>Online Etch-a-Sketch</title>
+</head>
+
+<body>
+    <header>
+        <h1>Online Etch-a-Sketch</h1>
+        <p>Feeling bored and want to draw something on a simulated etch-a-sketch? You're more than welcome to draw here, and customize it to however big, or what colors you want!</p>
+    </header>
+    <main id="board">
+    </main>
+    <form id="settings">
+        <label for="fillColor">Color</label>
+        <input type="color" name="fillColor" id="fillColor"
+            placeholder="Default: Black">
+        <label for="backgroundColor">Background Color</label>
+        <input type="color" name="backgroundColor" id="backgroundColor"
+            placeholder="Default: Black">
+        <label for="borderColor">Border Color</label>
+        <input type="color" name="borderColor" id="borderColor"
+            placeholder="Default: Black">
+            <br>
+        <label for="sizesettings">Size</label>
+        <input type="text" name="sizeSettings" id="sizeSettings"
+            placeholder="Default: 32">
+        <label for="erase">Erase Mode</label>
+        <input type="checkbox" name="erase" id="erase" autocomplete="off">
+        <br>
+        <button type="submit" id="enter">Submit and Shake</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>
